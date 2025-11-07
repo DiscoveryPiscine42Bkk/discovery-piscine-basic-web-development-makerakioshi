@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sirakarn Limsamutchaiporn— Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    :root { --accent: #ff6fa3; --bg: #fff7fb; }
+    body { background-color: var(--bg); font-family: 'Poppins', sans-serif; color: #333; }
+    .navbar { background-color: white; }
+    .navbar-brand span { font-weight: bold; color: var(--accent); }
+    .hero { padding: 100px 0; text-align: center; background: white; }
+    .hero h1 { font-weight: 700; font-size: 2.5rem; color: #222; }
+    .hero p { color: #555; }
+    section { padding: 60px 0; }
+    .section-title { text-align: center; margin-bottom: 40px; }
+    .section-title h2 { font-weight: 600; color: var(--accent); }
+    footer { background-color: white; text-align: center; padding: 20px 0; color: #777; }
+    .profile-img { width: 180px; border-radius: 50%; margin-bottom: 20px; }
+    .card { border: none; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span>Sirakarn</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#showcase">Showcase</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Art Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <img src="assets/conan.png" alt="Sirakarn Photo" class="profile-img shadow">
+      <h1>Hi, I'm <span style="color:var(--accent)">Sirakarn</span></h1>
+      <p>Artist & Java Developer — Blending creativity with technology.</p>
+      <a href="#about" class="btn btn-primary mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p>I'm <strong>Sirakarn</strong>, a creative individual who enjoys both <strong>drawing digital art</strong> and <strong>writing code in Java</strong>. I love combining design and logic to make things come alive — whether it’s a painting, a web page, or a coded animation.</p>
+          <ul class="list-unstyled">
+            <li><strong>Languages:</strong> Java, HTML, CSS, JavaScript</li>
+            <li><strong>Skills:</strong> Front-end development, UI design, illustration</li>
+            <li><strong>Tools:</strong> Figma, VS Code, GitHub, Clip Studio Paint</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="showcase" class="bg-light">
+    <div class="container">
+      <div class="section-title">
+        <h2>Showcase</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Teaching Assistant (TA)</h5>
+            <p><strong>Java Programming</strong> — Assisted students in understanding Object-Oriented Programming and debugging assignments.</p>
+            <p class="text-muted">Helped organize lab sessions and provided guidance on Java coding projects.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Experience</h5>
+            <p><strong>Web Training Project</strong> (2025)</p>
+            <p>Created a responsive portfolio using Bootstrap and HTML5 during web fundamentals training.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Skills</h5>
+            <p>HTML • CSS • JavaScript • Bootstrap • Java</p>
+            <p class="text-muted">Mixing art and programming to build creative experiences.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Art Projects</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-3 text-center">
+            <img src="https://picsum.photos/seed/art1/400/300" alt="Digital Art 1" class="img-fluid rounded mb-2">
+            <h6>Dreamscape</h6>
+            <p class="text-muted">A digital painting inspired by surreal landscapes and emotional tones.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center">
+            <img src="https://picsum.photos/seed/art2/400/300" alt="Digital Art 2" class="img-fluid rounded mb-2">
+            <h6>Fragmented Light</h6>
+            <p class="text-muted">Exploring how light and code can merge to form abstract visuals.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 text-center">
+            <img src="https://picsum.photos/seed/art3/400/300" alt="Digital Art 3" class="img-fluid rounded mb-2">
+            <h6>Code & Canvas</h6>
+            <p class="text-muted">An art piece blending Java-generated graphics and hand-drawn textures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+      <div class="text-center">
+        <p>Let's connect and collaborate!</p>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#" class="btn btn-outline-dark btn-sm"><i class="bi bi-github"></i> GitHub</a>
+          <a href="#" class="btn btn-outline-primary btn-sm"><i class="bi bi-linkedin"></i> LinkedIn</a>
+          <a href="#" class="btn btn-outline-danger btn-sm"><i class="bi bi-instagram"></i> Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Sirakarn | Art & Code Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
